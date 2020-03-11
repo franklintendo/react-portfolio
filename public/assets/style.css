@@ -1,0 +1,128 @@
+html, body, .body-content {
+    min-height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #32292F;
+    background-color: #F0F7F4;
+}
+
+.wrapper {
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', cursive;
+    color: #32292F;
+}
+
+.navbar-brand {
+    font-family: 'Bowlby One SC', cursive;
+    color: #32292F;
+}
+
+.navbar-toggler {
+    color: #32292F;
+}
+
+.navbar-brand:hover {
+    color: #D9F4F1;
+}
+
+nav {
+    background-color: #99E1D9;
+}
+
+a.nav-item.nav-link {
+    color: #32292F;
+}
+a.nav-item.nav-link:hover {
+    color: #D9F4F1;
+}
+
+footer {
+    background-color: #705D56;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.content-container {
+    background-color: #FFFFFF;
+    min-height: 300px;
+}
+
+/* .content-title {
+
+} */
+
+.about-portrait {
+    width: 200px;
+}
+
+.btn {
+    background-color: #4A5759;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #1B2021;
+    color: #FFFFFF;
+}
+
+.portfolio-item {
+    height: 250px;
+    background-color: #f6f5f5;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.portfolio-item:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.portfolio-title {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #4A5759;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+#cinefile {
+    background-image:url('./cinefile.png');
+}
+
+#quiz {
+    background-image:url('./code-quiz.png');
+}
+
+#weather {
+    background-image:url('./weather-dashboard.png');
+}
+
+#note-taker {
+    background-image:url('./note-taker.png');
+}
+
+#burger-logger {
+    background-image:url('./burger-logger.png');
+}
+
+#the-viral {
+    background-image:url('./the-viral.png');
+}
+
+
+
+@media (max-width: 576px) { 
+    .about-portrait {
+        width: 100%;
+    }
+}
