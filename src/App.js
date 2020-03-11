@@ -14,12 +14,12 @@ function App() {
     <BrowserRouter basename="/">
       <Header />
       <Switch>
-        
+        <Route path="/" children={<About />}/>
         <Route exact path="/portfolio">
           <Portfolio />
         </Route>
         <Route exact path="/contact" children={<Contact />}/>
-        <Route path="/" children={<About />}/>
+        
       </Switch>
       <Footer />
     </BrowserRouter>
