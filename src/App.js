@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from '../src/components/About';
 import Portfolio from '../src/components/Portfolio';
 import Contact from '../src/components/Contact';
@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer';
 function App() {
   return (
 
-    <HashRouter basename="/">
+    <BrowserRouter basename="/">
       <Header />
       <Switch>
         
@@ -22,7 +22,7 @@ function App() {
         <Route path="/" children={<About />}/>
       </Switch>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
 
   );
 }
