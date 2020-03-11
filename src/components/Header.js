@@ -9,9 +9,9 @@ function Header() {
             </button>
             <div className="collapse navbar-collapse justify-content-end" id="navigation-links">
                 <div className="navbar-nav">
-                    <a className="nav-item nav-link" href="/">About Me</a>
-                    <a className="nav-item nav-link" href="/portfolio">Portfolio</a>
-                    <a className="nav-item nav-link" href="/contact">Contact</a>
+                    <a className="nav-item nav-link" href="./">About Me</a>
+                    <a className="nav-item nav-link" href="./portfolio">Portfolio</a>
+                    <a className="nav-item nav-link" href="./contact">Contact</a>
                 </div>
             </div>
         </nav>
