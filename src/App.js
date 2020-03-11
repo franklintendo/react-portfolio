@@ -22,7 +22,7 @@ function App() {
         <Route path="/" children={<About />}/>
       </Switch>
       <Footer />
-    </HashRouter basename="/">
+    </HashRouter>
 
   );
 }
