@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer';
 function App() {
   return (
 
-    <BrowserRouter basename="/react-portfolio">
+    <BrowserRouter basename="/react-portfolio/">
       <Header />
         
         <Route exact path="/react-portfolio/portfolio">
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/react-portfolio/contact">
             <Contact />
         </Route>
-        <Route path="/react-portfolio">
+        <Route path="/react-portfolio/">
             <About />
         </Route>
       
