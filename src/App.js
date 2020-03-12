@@ -14,15 +14,16 @@ function App() {
     <BrowserRouter>
       <Header />
         
+      <Route exact path="/react-portfolio/">
+            <About />
+        </Route>
         <Route exact path="/react-portfolio/portfolio">
             <Portfolio />
         </Route>
         <Route exact path="/react-portfolio/contact">
             <Contact />
         </Route>
-        <Route exact path="/react-portfolio/">
-            <About />
-        </Route>
+        
       
       <Footer />
     </BrowserRouter>
