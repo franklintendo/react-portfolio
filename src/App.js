@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer';
 function App() {
   return (
 
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         <Route path="/" children={<About />}/>
