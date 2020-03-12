@@ -10,8 +10,8 @@ import Footer from '../src/components/Footer';
 
 function App() {
   return (
-    // process.env.PUBLIC_URL
-    <BrowserRouter>
+
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Switch>
         
