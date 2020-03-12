@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import About from '../src/components/About';
 import Portfolio from '../src/components/Portfolio';
 import Contact from '../src/components/Contact';
@@ -11,10 +11,10 @@ import Footer from '../src/components/Footer';
 function App() {
   return (
     // process.env.PUBLIC_URL
-    <HashRouter basename="/">
+    <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/" children={<About />}/>
+        <Route exact path="/" children={<About />}/>
         <Route exact path="/portfolio">
           <Portfolio />
         </Route>
@@ -22,7 +22,7 @@ function App() {
         
       </Switch>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
 
   );
 }
