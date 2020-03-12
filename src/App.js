@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/react-portfolio/contact">
             <Contact />
         </Route>
-        <Route path="/react-portfolio/">
+        <Route exact path="/react-portfolio/">
             <About />
         </Route>
       
