@@ -57,6 +57,7 @@ function Portfolio() {
                                     key={project.id} 
                                     title={project.title} 
                                     class={project.class}
+                                    link={project.link}
                                     />
                                 })}
                             </div>
